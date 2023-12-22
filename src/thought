@@ -1,0 +1,49 @@
+*****Here My Assignment 6 (Module Assignment - React module )*****
+
+This all about the frontend creation of home by the help of react for e-com websites...
+
+Ques) What I need to do in this Assignment ?
+--------------------------------------------
+=> I need to design a home page with the help of react and need to make 4 components for header, footer, homecover, and slider. these all components need to render in home.js and that will be single route in app.js.For images meed to namke a folder in src folder.That all same, I did in my assignment. here i need to use the react fontawesome too.
+
+
+components descrpition:-
+======================
+1) header.js:-
+------------
+here I used two navbar, both are done by bootstrap in which one for sreaching and second for all the links. so, I started by first type "racfe" for import and export the function and then i write all the code for UI design in return section and by the help of reat bootstrap website I read and write the code for both the navbar. in first navbar i faced some issue like because of that first navbar it was giving me scrollbar at bottom because I gave some height but the time  i reduce the height it resolved.
+Apart from this, I did one thing here that I imported the different components from the react bootstrap like button, container, nav, navbar, navdropdown, inputgroup, row, col,these such type of components I imported. we can say them component not tag.then, I used these all.in my navbar building. first was used for username and searching for the typing your username and for searching something. in the second navbar  is for going to the respective page like home page, sign in page, login page or  in cart page, in cart page link i used the react font awesome for cart.
+
+2) slider.js:-
+-------------
+this is the component where I put the slider which will locate just after the navbar.now after the Navbar.some code for slider component so inside a component this is the part.that will be visible with 3 images like first one will visible then second one visible and third one visible. when we click to next button it would change. so for that what I did I just imported react function by typing the "racfe". in my function in return I wrote all the UI designing. the UI is for Carousal.item .I imported the Carousal component at top as well.here I faced one challenge in importing the image. then, i search about it and I found some way that how can we add the image in react assignments .so first of all I gave  the name to the image then I import by that name and give the path for that one particular. so here I used to three images. I gave the name first second and third. in first Carousal, I gave the image of first one and then in second one, give the second one image and third one respectively.in the images sections, I also give some heading and paragraph as well. this all about my slider component which will locate after the navbar
+
+3) homecover.js:-
+----------------
+here i made the rest part of home page like discription of the products puting the input so that customer can ask for anything related to site.
+after the slider part,I am going to tell about the Homecover page which is locate after the slider part.So here I just put some card and one input box for the asking the question for that what I did I just imported the react function by tyoing "racfe" and then in Return function I wrote all the UI design. I use one card with the class name.MT-2 and {custom} in customs, I put some css by myself in my app.js like:- give some width to it so that it will give some side by side margin and then.and here for text-center that all the text will be in centre. and same I did with the input Heading part for asking the question I gave the class of text-centre. here i used one cllass text-muted which will give some blured or light shade to text. So this is all about my home cover page.
+
+4) slider2.js:-
+--------------
+this the part where i put the featured products with some carousel effect.this will be visible after the cover page like the question input part.writing that component what I did I just did first import and export react function and then in return, I wrote all the UI part. so here I used one carousal with the interval {null} means here there will be no interval in slideing the cards it will visible the bnxt images when we click to next and prev text.hereI divided the all the images three parts all the Carousal.item in three parts."first five will visible then 5 will visible then 5 will visible okay". then,some heading and some font design as well to my heading like for featured product I give some cursive writings font family by imported from Google font.then give some headibg abd paragraph and button to write about it's pricing about its paragraph and for add to cart respectively. I used font awesome of react which was just told in the documentto use that i need to use the font awesome of card icon when we add to The Cart. yeah same so this is all about mine slider part and for images as well, I imported the all the ten images here like first, second, third, forth, fifth... and so on somewhere  iused the images repeatedly then imported the Bootstrap-CSS file and font awesome and some components for react-bootstrap like caruosal and button.
+
+5) footer.js:- The return statement within the Footer component consists of HTML-like JSX code, which creates the structure of the footer.The <footer> tag represents the footer section.className attributes are used instead of class to define CSS classes in React.
+The footer is divided into multiple sections using Bootstrap classes (container, row, col-sm for columns, etc.).code creates a footer with various sections containing company details, contact information, and an "About us" description, all styled using Bootstrap classes and containing social media links and copyright information.
+
+6) home.js:- here i render all the components and this home page with put in app.js.
+
+7) a folder of image:- here I dowloaded some images which are used in slider and slider2 components.
+
+
+extra I used:-
+-------------
+1) font awsome by react-fontawsome:- this is used in featured product part (button of add to cart in slider2 component).
+2) bootstrap5 and react-bootstrap:- appox all the home page done by the bootstrap.
+3) google font for stying the text:- here i used two type of font one for and the page and one for featured products only.
+4) styling:- style in app.js, first gave some style to universal selector then for slider and slider-image which is used in featured products, custom class is given to second navbbar (of link) and to the homecover components. then for heading part of featured products (className= font-design).
+
+
+something I tried but failed to apply:-
+-------------------------------------
+1) I tried to apply the slider for featured product by tailwind css but it was not looking tha much good so i used bootstarp at end.
+2) I tried using react-slick for featued product but facing ussue in applying that so i didn't.
